@@ -1,0 +1,35 @@
+2026-03-31T09:14:01.102Z INFO api-gateway request_id=aa1001 method=GET path=/health status=200 latency_ms=12 ip=10.0.0.10
+2026-03-31T09:14:02.555Z INFO web request_id=aa1002 method=GET path=/ status=200 latency_ms=43 user_id=anon
+2026-03-31T09:14:03.111Z INFO auth-service request_id=aa1003 user_id=4821 action=login status=success latency_ms=88
+2026-03-31T09:14:05.912Z INFO product-service request_id=aa1004 method=GET path=/api/products/42 status=200 latency_ms=64 user_id=4821
+2026-03-31T09:14:08.320Z INFO checkout-service request_id=aa1005 method=POST path=/api/checkout status=200 latency_ms=241 user_id=4821 order_id=o1001
+2026-03-31T09:14:21.910Z INFO db-primary conn_pool_active=38 conn_pool_idle=12 query_ms=15
+2026-03-31T09:14:29.112Z WARN cache-service msg="background eviction cycle took longer than expected" duration_ms=1800
+2026-03-31T09:14:41.288Z INFO db-primary conn_pool_active=41 conn_pool_idle=9 query_ms=17
+2026-03-31T09:14:48.621Z WARN redis msg="command timeout" command=GET key=session:4821 timeout_ms=1500
+2026-03-31T09:15:01.665Z INFO checkout-service request_id=aa1016 method=POST path=/api/checkout status=200 latency_ms=355 user_id=774 order_id=o1005
+2026-03-31T09:15:06.041Z WARN checkout-service request_id=aa1017 msg="retrying payment provider" attempt=1 provider=stripe
+2026-03-31T09:15:06.992Z WARN checkout-service request_id=aa1017 msg="retrying payment provider" attempt=2 provider=stripe
+2026-03-31T09:15:07.330Z ERROR checkout-service request_id=aa1017 method=POST path=/api/checkout status=500 latency_ms=4201 user_id=650 error="database connection timeout"
+2026-03-31T09:15:07.551Z ERROR db-primary request_id=aa1017 error="remaining connection slots are reserved for superuser connections" conn_pool_active=50 conn_pool_idle=0
+2026-03-31T09:15:09.419Z WARN redis msg="command timeout" command=SET key=cart:650 timeout_ms=1500
+2026-03-31T09:15:11.918Z ERROR checkout-service request_id=aa1019 method=POST path=/api/checkout status=500 latency_ms=4388 user_id=122 error="database connection timeout"
+2026-03-31T09:15:12.100Z ERROR db-primary request_id=aa1019 error="remaining connection slots are reserved for superuser connections" conn_pool_active=50 conn_pool_idle=0
+2026-03-31T09:15:16.221Z WARN auth-service request_id=aa1021 method=GET path=/api/admin/users status=401 ip=185.22.44.91 msg="invalid bearer token"
+2026-03-31T09:15:17.014Z WARN auth-service request_id=aa1022 method=GET path=/api/admin/users status=401 ip=185.22.44.91 msg="invalid bearer token"
+2026-03-31T09:15:17.991Z WARN auth-service request_id=aa1023 method=POST path=/api/admin/export status=403 ip=185.22.44.91 msg="insufficient permissions"
+2026-03-31T09:15:18.410Z WARN redis msg="command timeout" command=GET key=session:122 timeout_ms=1500
+2026-03-31T09:15:19.500Z ERROR checkout-service request_id=aa1024 method=POST path=/api/checkout status=500 latency_ms=4510 user_id=980 error="database connection timeout"
+2026-03-31T09:15:19.702Z ERROR db-primary request_id=aa1024 error="remaining connection slots are reserved for superuser connections" conn_pool_active=50 conn_pool_idle=0
+2026-03-31T09:15:22.993Z ERROR checkout-service request_id=aa1026 method=POST path=/api/checkout status=500 latency_ms=4671 user_id=713 error="database connection timeout"
+2026-03-31T09:15:23.144Z ERROR db-primary request_id=aa1026 error="remaining connection slots are reserved for superuser connections" conn_pool_active=50 conn_pool_idle=0
+2026-03-31T09:15:24.820Z WARN auth-service request_id=aa1027 method=GET path=/api/admin/users status=401 ip=185.22.44.91 msg="invalid bearer token"
+2026-03-31T09:15:26.992Z WARN redis msg="command timeout" command=SET key=cart:713 timeout_ms=1500
+2026-03-31T09:15:28.440Z ERROR checkout-service request_id=aa1029 method=POST path=/api/checkout status=500 latency_ms=4890 user_id=322 error="database connection timeout"
+2026-03-31T09:15:28.710Z ERROR db-primary request_id=aa1029 error="remaining connection slots are reserved for superuser connections" conn_pool_active=50 conn_pool_idle=0
+2026-03-31T09:15:31.118Z WARN worker thumbnail-job job_id=t3001 msg="temporary S3 metadata mismatch" retry_in_s=30
+2026-03-31T09:15:33.884Z WARN auth-service request_id=aa1031 method=POST path=/api/admin/export status=403 ip=185.22.44.91 msg="insufficient permissions"
+2026-03-31T09:15:36.905Z INFO db-primary conn_pool_active=50 conn_pool_idle=0 query_ms=210
+2026-03-31T09:15:38.222Z ERROR checkout-service request_id=aa1032 method=POST path=/api/checkout status=500 latency_ms=5102 user_id=104 error="database connection timeout"
+2026-03-31T09:15:39.208Z WARN redis msg="command timeout" command=GET key=session:104 timeout_ms=1500
+2026-03-31T09:15:55.901Z INFO api-gateway request_id=aa1036 method=GET path=/health status=200 latency_ms=14 ip=10.0.0.10

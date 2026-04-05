@@ -1,0 +1,254 @@
+Mar 31 09:00:01 demo-host sshd[1612]: Accepted publickey for deploy from 10.0.0.11 port 52118 ssh2
+Mar 31 09:00:05 demo-host sudo[9703]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:00:07 demo-host kernel[2816]: TCP: Possible SYN flooding on port 443. Sending cookies.
+Mar 31 09:00:10 demo-host sudo[5051]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:00:13 demo-host sudo[6843]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:00:14 demo-host sudo[9481]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:00:16 demo-host CRON[3532]: (www-data) CMD (/usr/local/bin/rotate_logs.sh)
+Mar 31 09:00:19 demo-host sshd[2859]: Accepted publickey for deploy from 10.0.0.11 port 52118 ssh2
+Mar 31 09:00:20 demo-host sshd[1244]: Accepted publickey for deploy from 10.0.0.11 port 52118 ssh2
+Mar 31 09:00:24 demo-host sudo[4824]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:00:26 demo-host systemd[6238]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:00:28 demo-host systemd[8070]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:00:29 demo-host kernel[9391]: Out of memory: Killed process 2213 (python3) total-vm:2048000kB
+Mar 31 09:00:31 demo-host systemd[1066]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:00:33 demo-host CRON[6797]: (www-data) CMD (/usr/local/bin/rotate_logs.sh)
+Mar 31 09:00:34 demo-host sudo[2821]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:00:37 demo-host sshd[6288]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:00:40 demo-host sshd[5705]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:00:42 demo-host kernel[8049]: Out of memory: Killed process 2213 (python3) total-vm:2048000kB
+Mar 31 09:00:43 demo-host sshd[4459]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:00:44 demo-host sshd[3558]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:00:48 demo-host docker[8620]: health check failed for redis container
+Mar 31 09:00:52 demo-host kernel[5621]: TCP: Possible SYN flooding on port 443. Sending cookies.
+Mar 31 09:00:55 demo-host CRON[5720]: (www-data) CMD (/usr/local/bin/rotate_logs.sh)
+Mar 31 09:00:57 demo-host CRON[6628]: (www-data) CMD (/usr/local/bin/rotate_logs.sh)
+Mar 31 09:00:58 demo-host CRON[5510]: (root) CMD (/usr/local/bin/backup.sh)
+Mar 31 09:00:59 demo-host kernel[6683]: Out of memory: Killed process 2213 (python3) total-vm:2048000kB
+Mar 31 09:01:00 demo-host docker[2113]: health check failed for redis container
+Mar 31 09:01:02 demo-host CRON[7504]: (www-data) CMD (/usr/local/bin/rotate_logs.sh)
+Mar 31 09:01:06 demo-host sudo[3179]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:01:09 demo-host sshd[6001]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:01:12 demo-host sudo[7379]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:01:16 demo-host kernel[1433]: TCP: Possible SYN flooding on port 443. Sending cookies.
+Mar 31 09:01:20 demo-host kernel[1745]: TCP: Possible SYN flooding on port 443. Sending cookies.
+Mar 31 09:01:23 demo-host docker[3296]: container checkout-service restarted
+Mar 31 09:01:24 demo-host systemd[8258]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:01:27 demo-host sudo[9090]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:01:29 demo-host kernel[1995]: TCP: Possible SYN flooding on port 443. Sending cookies.
+Mar 31 09:01:31 demo-host systemd[3567]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:01:32 demo-host sshd[7225]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:01:34 demo-host CRON[6383]: (www-data) CMD (/usr/local/bin/rotate_logs.sh)
+Mar 31 09:01:36 demo-host sudo[4320]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:01:37 demo-host sudo[2324]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:01:38 demo-host sudo[5552]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:01:39 demo-host sudo[5723]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:01:43 demo-host sudo[9306]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:01:45 demo-host systemd[4344]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:01:48 demo-host sshd[1924]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:01:51 demo-host sudo[9802]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:01:52 demo-host docker[6125]: container checkout-service restarted
+Mar 31 09:01:55 demo-host kernel[9552]: Out of memory: Killed process 2213 (python3) total-vm:2048000kB
+Mar 31 09:01:58 demo-host sshd[9767]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:02:02 demo-host kernel[5337]: TCP: Possible SYN flooding on port 443. Sending cookies.
+Mar 31 09:02:04 demo-host docker[9956]: container checkout-service restarted
+Mar 31 09:02:05 demo-host kernel[250]: TCP: Possible SYN flooding on port 443. Sending cookies.
+Mar 31 09:02:08 demo-host systemd[4963]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:02:12 demo-host sudo[7567]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:02:15 demo-host systemd[662]: Failed to start Demo Background Worker.
+Mar 31 09:02:18 demo-host docker[2122]: health check failed for redis container
+Mar 31 09:02:22 demo-host sudo[3634]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:02:25 demo-host sudo[6271]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:02:28 demo-host systemd[3550]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:02:29 demo-host systemd[8087]: Failed to start Demo Background Worker.
+Mar 31 09:02:32 demo-host sudo[2708]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:02:36 demo-host CRON[7021]: (www-data) CMD (/usr/local/bin/rotate_logs.sh)
+Mar 31 09:02:39 demo-host kernel[6507]: Out of memory: Killed process 2213 (python3) total-vm:2048000kB
+Mar 31 09:02:42 demo-host CRON[3296]: (www-data) CMD (/usr/local/bin/rotate_logs.sh)
+Mar 31 09:02:43 demo-host systemd[5398]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:02:46 demo-host kernel[2781]: Out of memory: Killed process 2213 (python3) total-vm:2048000kB
+Mar 31 09:02:50 demo-host sudo[8004]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:02:52 demo-host systemd[3673]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:02:53 demo-host CRON[9531]: (root) CMD (/usr/local/bin/backup.sh)
+Mar 31 09:02:55 demo-host kernel[7097]: Out of memory: Killed process 2213 (python3) total-vm:2048000kB
+Mar 31 09:02:56 demo-host sshd[5925]: Accepted publickey for deploy from 10.0.0.11 port 52118 ssh2
+Mar 31 09:02:58 demo-host sshd[2022]: Accepted publickey for deploy from 10.0.0.11 port 52118 ssh2
+Mar 31 09:03:02 demo-host systemd[6719]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:03:03 demo-host sshd[4046]: Accepted publickey for deploy from 10.0.0.11 port 52118 ssh2
+Mar 31 09:03:07 demo-host CRON[9867]: (root) CMD (/usr/local/bin/backup.sh)
+Mar 31 09:03:11 demo-host sudo[1568]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:03:15 demo-host CRON[7392]: (www-data) CMD (/usr/local/bin/rotate_logs.sh)
+Mar 31 09:03:16 demo-host sshd[2010]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:03:17 demo-host kernel[8451]: Out of memory: Killed process 2213 (python3) total-vm:2048000kB
+Mar 31 09:03:18 demo-host docker[9487]: health check failed for redis container
+Mar 31 09:03:21 demo-host sudo[1649]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:03:25 demo-host kernel[7205]: TCP: Possible SYN flooding on port 443. Sending cookies.
+Mar 31 09:03:27 demo-host sshd[5428]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:03:29 demo-host kernel[423]: TCP: Possible SYN flooding on port 443. Sending cookies.
+Mar 31 09:03:33 demo-host sshd[8601]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:03:35 demo-host sudo[2022]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:03:37 demo-host sshd[9188]: Accepted publickey for deploy from 10.0.0.11 port 52118 ssh2
+Mar 31 09:03:40 demo-host sshd[741]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:03:42 demo-host sudo[2741]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:03:45 demo-host sshd[1486]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:03:48 demo-host CRON[9019]: (root) CMD (/usr/local/bin/backup.sh)
+Mar 31 09:03:52 demo-host sudo[101]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:03:55 demo-host sshd[8610]: Accepted publickey for deploy from 10.0.0.11 port 52118 ssh2
+Mar 31 09:03:59 demo-host systemd[9554]: Failed to start Demo Background Worker.
+Mar 31 09:04:02 demo-host docker[5869]: container checkout-service restarted
+Mar 31 09:04:03 demo-host sudo[832]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:04:04 demo-host systemd[2421]: Failed to start Demo Background Worker.
+Mar 31 09:04:06 demo-host systemd[9965]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:04:09 demo-host CRON[2205]: (www-data) CMD (/usr/local/bin/rotate_logs.sh)
+Mar 31 09:04:10 demo-host docker[4277]: health check failed for redis container
+Mar 31 09:04:14 demo-host sudo[2775]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:04:18 demo-host sshd[4264]: Accepted publickey for deploy from 10.0.0.11 port 52118 ssh2
+Mar 31 09:04:20 demo-host docker[3438]: container checkout-service restarted
+Mar 31 09:04:23 demo-host sudo[3256]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:04:25 demo-host kernel[2614]: TCP: Possible SYN flooding on port 443. Sending cookies.
+Mar 31 09:04:29 demo-host kernel[524]: Out of memory: Killed process 2213 (python3) total-vm:2048000kB
+Mar 31 09:04:30 demo-host CRON[2141]: (root) CMD (/usr/local/bin/backup.sh)
+Mar 31 09:04:34 demo-host sshd[5496]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:04:37 demo-host CRON[4576]: (root) CMD (/usr/local/bin/backup.sh)
+Mar 31 09:04:39 demo-host CRON[261]: (root) CMD (/usr/local/bin/backup.sh)
+Mar 31 09:04:43 demo-host systemd[6303]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:04:44 demo-host systemd[8725]: Failed to start Demo Background Worker.
+Mar 31 09:04:48 demo-host sshd[8766]: Accepted publickey for deploy from 10.0.0.11 port 52118 ssh2
+Mar 31 09:04:51 demo-host docker[4540]: container checkout-service restarted
+Mar 31 09:04:52 demo-host systemd[5310]: Failed to start Demo Background Worker.
+Mar 31 09:04:54 demo-host CRON[8811]: (www-data) CMD (/usr/local/bin/rotate_logs.sh)
+Mar 31 09:04:58 demo-host docker[2190]: health check failed for redis container
+Mar 31 09:04:59 demo-host sudo[8514]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:05:01 demo-host systemd[6306]: Failed to start Demo Background Worker.
+Mar 31 09:05:02 demo-host sudo[6164]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:05:06 demo-host sudo[7600]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:05:10 demo-host CRON[7778]: (www-data) CMD (/usr/local/bin/rotate_logs.sh)
+Mar 31 09:05:13 demo-host kernel[8629]: Out of memory: Killed process 2213 (python3) total-vm:2048000kB
+Mar 31 09:05:16 demo-host sudo[1524]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:05:20 demo-host CRON[1576]: (root) CMD (/usr/local/bin/backup.sh)
+Mar 31 09:05:21 demo-host sudo[4032]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:05:23 demo-host docker[1040]: container checkout-service restarted
+Mar 31 09:05:26 demo-host docker[8174]: container checkout-service restarted
+Mar 31 09:05:30 demo-host sudo[8434]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:05:34 demo-host kernel[8537]: Out of memory: Killed process 2213 (python3) total-vm:2048000kB
+Mar 31 09:05:38 demo-host sshd[3215]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:05:42 demo-host sudo[8854]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:05:44 demo-host sudo[8752]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:05:48 demo-host systemd[8677]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:05:50 demo-host sshd[6113]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:05:53 demo-host sshd[7025]: Accepted publickey for deploy from 10.0.0.11 port 52118 ssh2
+Mar 31 09:05:57 demo-host systemd[6215]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:06:00 demo-host sudo[4192]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:06:03 demo-host CRON[8015]: (www-data) CMD (/usr/local/bin/rotate_logs.sh)
+Mar 31 09:06:06 demo-host systemd[136]: Failed to start Demo Background Worker.
+Mar 31 09:06:08 demo-host CRON[8546]: (root) CMD (/usr/local/bin/backup.sh)
+Mar 31 09:06:12 demo-host docker[8099]: container checkout-service restarted
+Mar 31 09:06:15 demo-host sshd[7642]: Accepted publickey for deploy from 10.0.0.11 port 52118 ssh2
+Mar 31 09:06:18 demo-host CRON[1855]: (root) CMD (/usr/local/bin/backup.sh)
+Mar 31 09:06:21 demo-host sudo[3150]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:06:24 demo-host sshd[1760]: Accepted publickey for deploy from 10.0.0.11 port 52118 ssh2
+Mar 31 09:06:28 demo-host systemd[1488]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:06:32 demo-host sshd[8085]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:06:34 demo-host sudo[4198]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:06:38 demo-host kernel[6232]: TCP: Possible SYN flooding on port 443. Sending cookies.
+Mar 31 09:06:41 demo-host kernel[3084]: TCP: Possible SYN flooding on port 443. Sending cookies.
+Mar 31 09:06:42 demo-host kernel[7298]: Out of memory: Killed process 2213 (python3) total-vm:2048000kB
+Mar 31 09:06:44 demo-host CRON[7210]: (root) CMD (/usr/local/bin/backup.sh)
+Mar 31 09:06:47 demo-host sudo[3351]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:06:49 demo-host CRON[759]: (root) CMD (/usr/local/bin/backup.sh)
+Mar 31 09:06:53 demo-host kernel[5526]: Out of memory: Killed process 2213 (python3) total-vm:2048000kB
+Mar 31 09:06:55 demo-host sudo[3360]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:06:58 demo-host sshd[6999]: Accepted publickey for deploy from 10.0.0.11 port 52118 ssh2
+Mar 31 09:07:02 demo-host sudo[2187]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:07:06 demo-host docker[6470]: container checkout-service restarted
+Mar 31 09:07:07 demo-host sshd[446]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:07:09 demo-host CRON[8292]: (root) CMD (/usr/local/bin/backup.sh)
+Mar 31 09:07:11 demo-host sshd[5705]: Accepted publickey for deploy from 10.0.0.11 port 52118 ssh2
+Mar 31 09:07:12 demo-host kernel[7967]: TCP: Possible SYN flooding on port 443. Sending cookies.
+Mar 31 09:07:15 demo-host kernel[1453]: TCP: Possible SYN flooding on port 443. Sending cookies.
+Mar 31 09:07:17 demo-host docker[2598]: container checkout-service restarted
+Mar 31 09:07:19 demo-host CRON[1984]: (www-data) CMD (/usr/local/bin/rotate_logs.sh)
+Mar 31 09:07:21 demo-host sudo[7131]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:07:25 demo-host sudo[1788]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:07:27 demo-host docker[2536]: container checkout-service restarted
+Mar 31 09:07:28 demo-host systemd[6674]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:07:31 demo-host systemd[2495]: Failed to start Demo Background Worker.
+Mar 31 09:07:32 demo-host docker[3370]: container checkout-service restarted
+Mar 31 09:07:33 demo-host kernel[6773]: TCP: Possible SYN flooding on port 443. Sending cookies.
+Mar 31 09:07:35 demo-host systemd[5607]: Failed to start Demo Background Worker.
+Mar 31 09:07:39 demo-host sshd[8453]: Accepted publickey for deploy from 10.0.0.11 port 52118 ssh2
+Mar 31 09:07:40 demo-host CRON[1903]: (www-data) CMD (/usr/local/bin/rotate_logs.sh)
+Mar 31 09:07:43 demo-host CRON[5851]: (www-data) CMD (/usr/local/bin/rotate_logs.sh)
+Mar 31 09:07:45 demo-host CRON[879]: (root) CMD (/usr/local/bin/backup.sh)
+Mar 31 09:07:46 demo-host sshd[954]: Accepted publickey for deploy from 10.0.0.11 port 52118 ssh2
+Mar 31 09:07:48 demo-host CRON[7834]: (www-data) CMD (/usr/local/bin/rotate_logs.sh)
+Mar 31 09:07:49 demo-host kernel[3128]: TCP: Possible SYN flooding on port 443. Sending cookies.
+Mar 31 09:07:53 demo-host CRON[5576]: (www-data) CMD (/usr/local/bin/rotate_logs.sh)
+Mar 31 09:07:54 demo-host sshd[323]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:07:57 demo-host CRON[6020]: (www-data) CMD (/usr/local/bin/rotate_logs.sh)
+Mar 31 09:07:59 demo-host sudo[4621]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:08:03 demo-host sshd[1842]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:08:04 demo-host sshd[9710]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:08:06 demo-host sudo[7403]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:08:07 demo-host docker[5718]: health check failed for redis container
+Mar 31 09:08:11 demo-host systemd[8841]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:08:12 demo-host systemd[3240]: Failed to start Demo Background Worker.
+Mar 31 09:08:15 demo-host docker[5790]: health check failed for redis container
+Mar 31 09:08:19 demo-host sudo[2023]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:08:20 demo-host kernel[6964]: Out of memory: Killed process 2213 (python3) total-vm:2048000kB
+Mar 31 09:08:22 demo-host docker[4591]: container checkout-service restarted
+Mar 31 09:08:25 demo-host sshd[9376]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:08:27 demo-host sudo[6612]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:08:28 demo-host systemd[7272]: Failed to start Demo Background Worker.
+Mar 31 09:08:32 demo-host kernel[4548]: Out of memory: Killed process 2213 (python3) total-vm:2048000kB
+Mar 31 09:08:34 demo-host sshd[2721]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:08:35 demo-host docker[7561]: health check failed for redis container
+Mar 31 09:08:38 demo-host systemd[4955]: Failed to start Demo Background Worker.
+Mar 31 09:08:39 demo-host systemd[3768]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:08:41 demo-host CRON[740]: (root) CMD (/usr/local/bin/backup.sh)
+Mar 31 09:08:44 demo-host systemd[4530]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:08:46 demo-host systemd[8858]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:08:47 demo-host sudo[5792]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:08:50 demo-host sshd[9099]: Accepted publickey for deploy from 10.0.0.11 port 52118 ssh2
+Mar 31 09:08:52 demo-host kernel[4931]: TCP: Possible SYN flooding on port 443. Sending cookies.
+Mar 31 09:08:53 demo-host sudo[270]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:08:55 demo-host sudo[4682]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:08:58 demo-host sshd[8904]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:09:02 demo-host sudo[4316]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:09:06 demo-host systemd[5412]: Failed to start Demo Background Worker.
+Mar 31 09:09:08 demo-host docker[6579]: container checkout-service restarted
+Mar 31 09:09:12 demo-host systemd[7209]: Failed to start Demo Background Worker.
+Mar 31 09:09:14 demo-host kernel[1635]: TCP: Possible SYN flooding on port 443. Sending cookies.
+Mar 31 09:09:16 demo-host kernel[3131]: Out of memory: Killed process 2213 (python3) total-vm:2048000kB
+Mar 31 09:09:18 demo-host docker[8136]: container checkout-service restarted
+Mar 31 09:09:21 demo-host sshd[5181]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:09:23 demo-host kernel[3177]: Out of memory: Killed process 2213 (python3) total-vm:2048000kB
+Mar 31 09:09:25 demo-host sshd[7086]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:09:29 demo-host sudo[6694]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:09:31 demo-host sudo[293]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:09:35 demo-host kernel[439]: Out of memory: Killed process 2213 (python3) total-vm:2048000kB
+Mar 31 09:09:36 demo-host sudo[816]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:09:38 demo-host sshd[4485]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:09:39 demo-host sshd[1842]: Accepted publickey for deploy from 10.0.0.11 port 52118 ssh2
+Mar 31 09:09:40 demo-host systemd[2381]: Failed to start Demo Background Worker.
+Mar 31 09:09:44 demo-host systemd[5136]: Failed to start Demo Background Worker.
+Mar 31 09:09:48 demo-host systemd[4094]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:09:51 demo-host sudo[9006]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:09:52 demo-host sshd[1784]: Accepted publickey for deploy from 10.0.0.11 port 52118 ssh2
+Mar 31 09:09:53 demo-host docker[6904]: container checkout-service restarted
+Mar 31 09:09:54 demo-host systemd[493]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:09:58 demo-host kernel[2514]: TCP: Possible SYN flooding on port 443. Sending cookies.
+Mar 31 09:10:01 demo-host systemd[6403]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:10:05 demo-host systemd[1904]: Started Daily Cleanup of Temporary Directories.
+Mar 31 09:10:06 demo-host CRON[5954]: (root) CMD (/usr/local/bin/backup.sh)
+Mar 31 09:10:09 demo-host sshd[6006]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:10:10 demo-host docker[2575]: container checkout-service restarted
+Mar 31 09:10:14 demo-host docker[5586]: container checkout-service restarted
+Mar 31 09:10:18 demo-host systemd[5040]: Failed to start Demo Background Worker.
+Mar 31 09:10:21 demo-host sshd[4541]: Accepted publickey for deploy from 10.0.0.11 port 52118 ssh2
+Mar 31 09:10:24 demo-host CRON[1351]: (root) CMD (/usr/local/bin/backup.sh)
+Mar 31 09:10:26 demo-host sudo[2501]: deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 31 09:15:07 demo-host kernel[0]: Out of memory: Killed process 2213 (python3) total-vm:2048000kB
+Mar 31 09:15:08 demo-host docker[2231]: container checkout-service restarted
+Mar 31 09:15:18 demo-host sshd[5122]: Failed password for invalid user admin from 185.22.44.91 port 54822 ssh2
+Mar 31 09:15:19 demo-host sshd[5127]: Failed password for invalid user root from 185.22.44.91 port 54840 ssh2

@@ -101,12 +101,11 @@ It also:
 * distinguishes confirmed facts vs inference
 * recommends concrete debugging steps
 
-(Optional) Add a screenshot:
+## 🧪 Example Output
 
-```
-![Example Output](example.png)
-```
+![Example Output](log_analyzer_agent_screenshot.png)
 
+*Example: Agent identifying database connection pool exhaustion and cascading failures from raw logs*
 ---
 
 ## 🛠️ Fake Tool Interface (Optional)

@@ -1,4 +1,4 @@
-# Log Analyzer Agent
+# Claude Log Analyzer Agent
 
 A Claude-based AI agent that analyzes raw logs, identifies production incidents, and recommends debugging steps and fixes.
 

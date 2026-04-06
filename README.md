@@ -108,7 +108,7 @@ It also:
 *Example: Agent identifying database connection pool exhaustion and cascading failures from raw logs*
 ---
 
-## 🛠️ Fake Tool Interface (Optional)
+## 🛠️ Tool Interface (Optional)
 
 This project includes a simple tool layer to simulate real-world agent capabilities:
 
@@ -130,7 +130,7 @@ In a production system, these would connect to:
 
 ---
 
-## 🧪 Generate Fake Logs
+## 🧪 Generate Fake Logs (Optional)
 
 To create realistic test data:
 

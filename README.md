@@ -1,4 +1,4 @@
-# Log Analyzer Agent
+# Claude Log Analyzer Agent
 
 A Claude-based AI agent that analyzes raw logs, identifies production incidents, and recommends debugging steps and fixes.
 
@@ -101,15 +101,14 @@ It also:
 * distinguishes confirmed facts vs inference
 * recommends concrete debugging steps
 
-(Optional) Add a screenshot:
+## 🧪 Example Output
 
-```
-![Example Output](example.png)
-```
+![Example Output](log_analyzer_agent_screenshot.png)
 
+*Example: Agent identifying database connection pool exhaustion and cascading failures from raw logs*
 ---
 
-## 🛠️ Fake Tool Interface (Optional)
+## 🛠️ Tool Interface (Optional)
 
 This project includes a simple tool layer to simulate real-world agent capabilities:
 
@@ -131,7 +130,7 @@ In a production system, these would connect to:
 
 ---
 
-## 🧪 Generate Fake Logs
+## 🧪 Generate Fake Logs (Optional)
 
 To create realistic test data:
 
